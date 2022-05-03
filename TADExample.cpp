@@ -13,13 +13,8 @@ int main(int argc, char** argv) {
 
 unsigned int numElementos;  
 
-	if (argc > 1) {
+	if (argc > 1) 
 		numElementos = atoi(argv[1]);
-		if (numElementos > MAX)
-			numElementos = MAX;
-		}
-	else
-		numElementos = MAX;
 
 	cVetorDin vet1;
 	cVetorDin vet2(numElementos);
@@ -27,5 +22,6 @@ unsigned int numElementos;
 
 	vet1.imprimeVet();
 	vet2.imprimeVet();
-	vet3.imprimeVet();
+	vet3.imprimeVet();	
+
 }

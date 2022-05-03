@@ -9,7 +9,7 @@ class cVetorDin	{
 
 private: 
 
-	int v[MAX];
+	int *v;
 	int maxInd;
 	int numElem;
 
